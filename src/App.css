@@ -5,6 +5,17 @@
 }
 
 body {
+  font-size: 27px;
   background: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
