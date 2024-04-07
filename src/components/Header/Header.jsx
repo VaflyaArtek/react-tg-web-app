@@ -6,7 +6,7 @@ const Header = () => {
     const {user} = useTelegram()
     return (
         <div className={'header'}>
-            <span className={'username'}>word {user?.username}</span>
+            <span className={'username'}>{user?.username}</span>
         </div>
     );
 };
