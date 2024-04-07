@@ -29,7 +29,7 @@ const Header = () => {
             <div className='header'>
                 <div className={'header__container'}>
                     Balance {coins}
-                    <div><img className={'header__img'} src={'media/coin_icon.svg'}/></div>
+                    <div><img className={'header__img'} src={'media/coin_icon.svg'} alt={'coin-icon'}/></div>
                 </div>
             </div>
             <Coin onClaim={handleClaim}/>

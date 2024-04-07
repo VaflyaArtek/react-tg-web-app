@@ -8,7 +8,7 @@ const Coin = ({ onClaim }) => {
 
     return (
         <div className={'coin-wrapper'}>
-            <img src={'./media/coin.png'} className={'coin-img'} onClick={handleClaim}/>
+            <img src={'./media/coin.png'} className={'coin-img'} onClick={handleClaim} alt={'Coin'}/>
             <div className={'main-btn__wrapper'}>
                 <button className={'main-btn'}>Claim</button>
             </div>
