@@ -3,7 +3,6 @@ import React, {useEffect} from "react";
 import {useTelegram} from './hooks/useTelegram'
 import Header from "./components/Header/Header";
 
-// console.log(user)
 function App() {
     const {tg} = useTelegram()
 
