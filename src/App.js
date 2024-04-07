@@ -5,11 +5,11 @@ import Header from "./components/Header/Header";
 
 // console.log(user)
 function App() {
-    const {onToggleButton, tg} = useTelegram()
+    const {tg} = useTelegram()
 
     useEffect(() => {
         tg.ready();
-    }, []);
+    }, [tg]);
 
     return (
         <div className="App">
