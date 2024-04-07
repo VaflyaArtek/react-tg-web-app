@@ -1,12 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import {fetchCoins} from '../../hooks/api';
-import {useTelegram} from '../../hooks/useTelegram';
 import './Header.css';
 import Coin from '../Coin/Coin';
 
 const Header = () => {
     const [coins, setCoins] = useState(0);
-    const {user} = useTelegram();
 
     useEffect(() => {
         async function fetchData() {
